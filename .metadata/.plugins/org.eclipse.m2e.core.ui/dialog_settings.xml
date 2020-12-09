@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/aika/ペイント"/>
+			<item value="/Users/aika/sts_workspace/routePractice 2"/>
+			<item value="/Users/aika/sts_workspace/paintColoring-master"/>
+			<item value="/Users/aika/sts_workspace/atm_api"/>
+			<item value="/Users/aika/sts_workspace/movie-ranking"/>
+			<item value="/Users/aika/sts_workspace/movie"/>
+			<item value="/Users/aika/sts_workspace/spring_boot_sample"/>
+			<item value="/Users/aika/sts_workspace/routePractice"/>
+			<item value="/Users/aika/Downloads/books_management"/>
+			<item value="/Users/aika/sts_workspace/books_management"/>
+			<item value="/Users/aika/Downloads/book_mng_sys"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="aaaa"/>
+			<item value="api"/>
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

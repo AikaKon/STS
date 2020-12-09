@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>編集画面</title>
+</head>
+
+<body>
+	<form th:action="@{/drinks/update/}+${drinkId}" th:object="${drinkForm}" th:method="put">
+		
+		<div>
+			<label>商品名</label>
+			<input type="text" name="drinkName" th:field="*{drinkName}"/>
+		</div>
+
+		<div>
+			<label>価格</label>
+			<input type="number" name="price" th:field="*{price}"/>
+		</div>
+
+		<div>
+			<label>在庫</label>
+			<input type="number" name="stock" th:field="*{stock}"/>
+		</div>
+		
+		<div>
+			<label>メーカーID</label>
+			<input type="number" name="makerId"  th:field="*{makerId}"/>
+		</div>
+
+		<div>
+			<input type="submit" name="update" value="更新"/>
+		</div>
+
+
+	</form>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8"/>
+    <title>飲み物一覧</title>
+</head>
+
+<body>
+	<header>
+		<h1>飲み物一覧</h1>
+	</header>
+	
+		<table>
+			<thead>
+				<tr>
+					<th>id</th>
+					<th>飲み物</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<tr th:each="drink : ${drinkList}">　<!-- 繰り返し -->
+					<td th:text="${drink.id}"></td> <!-- ① -->
+					<td th:text="${drink.name}"></td>
+					
+					<td>
+						<form th:action="@{/drinks/} + ${drink.id}" method="get">　<!-- URL+①で連結する -->
+							<input type="submit" value="詳細"/>
+						</form>
+					</td>
+					
+					<td>
+						<form th:action="@{/drinks/edit/} + ${drink.id}" method="get">
+							<input type="submit" value="編集"/>
+						</form>
+					</td>
+					
+					<td>
+						<form th:action="@{/drinks/destroy}" th:method="delete">
+							<input type="submit" value="削除"/>
+							<input type="hidden" name="id" th:value="${drink.id}"/>
+						</form>
+					</td>
+				</tr>
+			</tbody>	
+		</table>
+
+		<div>
+			<form th:action="@{/drinks/create}" method="get"> 
+				<input type="submit" value="新規追加"/>
+			</form>
+		</div>
+		
+		
+
+</body>
+</html>

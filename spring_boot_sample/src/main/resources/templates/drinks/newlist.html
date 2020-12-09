@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>新規追加</title>
+</head>
+
+<body>
+
+	<header>
+		<h2>新規追加</h2>
+	</header>
+
+		<form th:action="@{/drinks/store}" th:object="${drinkForm}" method="post"> <!-- 入力されたらstoreに行く -->
+			<div>
+				<label>商品</label>
+				<input type="text" name="drinkName" th:field="*{drinkName}"/>
+			</div>
+
+			<div>
+				<label>価格</label>
+				<input type="number" name="price" th:field="*{price}"/>
+			</div>
+			
+			<div>
+				<label>在庫</label>
+				<input type="number" name="stock" th:field="*{stock}"/>
+			</div>
+			
+			<div>
+				<label>メーカーID</label>
+				<input type="number" name="makerId"  th:field="*{makerId}"/>
+			</div>
+
+			<div>
+				<input type="submit" name="addition" value="登録"/>
+			</div>
+		
+			
+		</form>
+</body>
+</html>

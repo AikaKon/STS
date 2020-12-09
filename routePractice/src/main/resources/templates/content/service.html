@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Serviceページ</title>
+</head>
+<body>
+    <div id="menu">
+        <ul>
+            <li><a href="http://localhost/routePractice/public/top">TOP</a></li>
+            <li><a href="http://localhost/routePractice/public/news">ニュース</a></li>
+            <li><a href="http://localhost/routePractice/public/content/service">サービス</a></li>
+            <li><a href="http://localhost/routePractice/public/content/product">プロダクト</a></li>
+            <li><a href="http://localhost/routePractice/public/about/us">企業情報</a></li>
+            <li><a href="http://localhost/routePractice/public/recruit">採用情報</a></li>
+            <li><a href="http://localhost/routePractice/public/contact/form/page">お問い合わせ</a></li>
+        </ul>
+    </div>
+    <div class="clear"></div>
+    <div class="band">
+        サービス<br/>
+        運営中サービス、開発情報
+
+
+    </div>
+    <div id="contents">
+        <ul>
+            <li>運用コンテンツ</li>
+            <li>開発コンテンツ</li>
+            <li>人工知能</li>
+            <li>ブロックチェーン</li>
+        </ul>
+    </div>
+    <style type="text/css">
+        body {
+            margin: 0;
+            background-color: #fff1dc;
+        }
+        #contents {
+            margin : 10px;
+        }
+        #menu {
+            width: 100%;
+        }
+        #menu ul{ 
+            margin: 0; 
+            padding: 0; 
+            list-style: none; 
+        }
+        #menu li{ 
+            display: inline; 
+            padding: 0; 
+            margin: 0; 
+            float: left;
+            width: 14%;
+        }
+        #menu li a{
+            display: block; 
+            border-left: 8px solid #C97556;
+            background-color: #474655;
+            padding: 3px 10px;
+            text-decoration: none;
+            color: #E1E2CF;
+            width: 100%; 
+            margin: 1px 0px;
+            text-align: left;
+            font-size: 14px;
+        }
+        #menu li a:hover{
+            border-left: 8px solid #990033;
+            background-color: #474655;
+        }
+        .clear {
+            clear: both;
+        }
+        .band {
+            margin-top: 10px;
+            color: white;
+            font-weight: 700;
+            width: 100%;
+            height: 5em;
+            padding: 20px;
+            background-color: #ff7725;
+        }
+        #contents>ul, ol {
+          padding: 0;
+          position: relative;
+        }
+
+        #contents>ul li, ol li {
+          color: black;
+          border-left: solid 8px orange;/*左側の線*/
+          background: whitesmoke;/*背景色*/
+          margin-bottom: 5px;/*下のバーとの余白*/
+          line-height: 1.5;
+          border-radius: 0 15px 15px 0;/*右側の角だけ丸く*/
+          padding: 0.5em;
+          list-style-type: none!important;
+        }
+    </style>
+</body>
+</html>

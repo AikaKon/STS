@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Cont_Animal.java&apos; to &apos;animal/src/main/java/controller&apos;&#x0A;- Original project: &apos;animal&apos;&#x0A;- Destination element: &apos;animal/src/main/java/controller&apos;&#x0A;- Original element: &apos;Entity.Cont_Animal.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;controller" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Entity{Cont_Animal.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1601554425065" units="1" version="1.0"/>
+</session>

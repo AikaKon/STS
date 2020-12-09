@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=/Users/aika/sts_workspace/movie-ranking/.git\:/Users/aika/sts_workspace/books_management/.git\:/Users/aika/Downloads/books_management/.git\:
+GitRepositoriesView.GitDirectories.relative=movie-ranking/.git\:books_management/.git\:/Users/aika/Downloads/books_management/.git\:
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1
